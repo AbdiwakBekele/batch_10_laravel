@@ -26,6 +26,10 @@ Route::get('/update_product', function(){
     return view('update_product');
 });
 
+Route::get('/update_product', function(){
+    return view('update_product');
+});
+
 Route::get('/create_user', function(){
     return view('create_user');
 });
