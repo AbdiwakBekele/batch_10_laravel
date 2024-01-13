@@ -29,3 +29,6 @@ Route::get('/update_product', function(){
 Route::get('/create_user', function(){
     return view('create_user');
 });
+Route::get('/create_user', function(){
+    return view('create_user');
+});
